@@ -1,0 +1,42 @@
+{
+  "NAME": "Имя",
+  "PASSWORD": "Пароль",
+  "EMAIL": "Email",
+  "USERNAME": "Имя пользователя",
+  "LOGIN": "Вход",
+  "SIGNUP": "Регистрация",
+  "RETYPEPASSWORD": "Пароль еще раз",
+
+  "MAP_TITLE": "Карта",
+
+  "SETTINGS_TITLE": "Настройки",
+  
+  "SETTINGS_PAGE_PROFILE": "Редактирование профиля",
+
+  "WELCOME_TITLE": "Добро пожаловать",
+
+  "LOGIN_TITLE": "Вход",
+  "LOGIN_ERROR": "Невозможно войти. Пожалуйста проверьте информацию о Вашей учетной записи и попробуйте войти еще раз.",
+  "LOGIN_BUTTON": "Войти",
+  "SIGNUP_TITLE": "Регистрация",
+  "SIGNUP_ERROR": "Невозможно создать учетную запись. Пожалуйста проверьте информацию о Вашей учетной записи и попробуйте еще раз.",
+  "SIGNUP_BUTTON": "Регистрация",
+  "PHONENUMBER": "Введите номер телефона",
+  "RECIPIENT_MASTER_TITLE":"Получатели СМС",
+  "DELETE_BUTTON":"Удалить",
+  "RECIPIENT_CREATE_TITLE":"Создание получателя",
+  "CANCEL_BUTTON": "Отмена",
+  "DONE_BUTTON": "Создать",
+  "RECIPIENT_NAME_PLACEHOLDER": "Имя",
+  "RECIPIENT_MOBILE_PLACEHOLDER": "Телефон",
+  "NAME_PLACEHOLDER": "Имя",
+  "SURNAME_PLACEHOLDER": "Фамилия",
+  "PASSWORD_PLACEHOLDER" : "Пароль",
+  "MOBILE_PLACEHOLDER": "Номер телефона",
+  "PATRONOMIC_PLACEHOLDER": "Отчество",
+  "DOB_PLACEHOLDER": "Дата рождения",
+  "EMAIL_PLACEHOLDER": "Email",
+  "SEX_PLACEHOLDER": "Пол",
+  "SURNAME": "Фамилия",
+  "PATRONOMIC":"Отчество"
+}

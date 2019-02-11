@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button icon-only menuToggle start large>
+      <ion-icon name="menu"></ion-icon>
+  </button>
+  
+  <button ion-button icon-only clear large end class="setting" (click)="settingsClicked()">
+    <ion-icon name="settings" md="md-settings"></ion-icon>
+  </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+            <!--{{ 'DIET' | translate }}-->
+            <button ion-button block outline large class="main-btn" (click)="dietClicked()">DIET</button>
+            <button ion-button block outline large class="main-btn">FOOD DIARY</button>
+            <button ion-button block outline large class="main-btn" (click)="mapClicked()">MAP</button>
+            <button ion-button block outline large class="main-btn" >INSTRUCTIONS</button>
+
+ 
+ </ion-content>
+<ion-footer>
+    <ion-row>
+        <ion-col no-padding>
+        <button ion-button  no-margin full icon-only clear large start class="pin-btn">
+            <ion-icon name="pin" class="pin-icon"></ion-icon>
+          </button>
+        </ion-col>
+        <ion-col no-padding>
+          <button ion-button  no-margin full clear large (click)="sosClicked()" class="sos-btn"></button>
+        </ion-col>
+        <ion-col no-padding>
+          <button ion-button no-margin full icon-only clear large end class="exit-btn" >
+              <ion-icon name="exit" class="exit-icon"></ion-icon>
+            </button>
+          </ion-col>
+    </ion-row>
+</ion-footer>
